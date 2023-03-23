@@ -1,0 +1,104 @@
+.date-t {
+    padding: 20px;
+    border: 1px solid #eee;
+    margin: 20px 0px;
+}
+
+.dropdown-menu {
+    transform: translate3d(0px, 38px, 0px) !important;
+    width: 100%;
+}
+
+.time-zoon {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.timezoon-selact{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pervious-week{
+    text-align: left;
+}
+.next-week{
+    text-align: right; 
+}
+.today-date p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.days, .timings {
+    padding: 20px;
+}
+
+.days {
+    text-align: center;
+    padding:60px 20px;
+    border-right: 1px solid #dbdbdb;
+    background: darkgoldenrod;
+}
+.days h5{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.mon-day {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.selact {
+    background: darkgoldenrod;
+    color: #fff;
+}
+
+.week-table {
+    border: 1px solid #dbdbdb;
+
+}
+
+.timings ul li {
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+}
+
+.timings ul li label {
+    width: 75px;
+    font-size: 16px;
+}
+
+.today-date h4 {
+    color: darkgoldenrod;
+}
+
+.today-date p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.next-week .btn, .pervious-week .btn {
+    color: darkgoldenrod;
+    font-weight: 600;
+}
+.box-day{
+    margin: 0px;
+}
+.form-check-input {
+    margin-top: 0.50em;
+}
+@media only screen and (max-width: 600px) {
+    .days h5 {
+        font-size: 10px;}
+        .days {
+            padding: 60px 7px;
+        }
+        .today-date p {
+            font-size: 12px;}
+}
